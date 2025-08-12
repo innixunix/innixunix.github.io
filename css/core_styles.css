@@ -644,3 +644,57 @@ h6 {
     width: 60px;
     height: 40px;
 }
+
+/* ------------ */
+/* CONTACT CARD */
+/* ------------ */
+.contact-card {
+    background: var(--md-sys-color-surface-container);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: var(--md-sys-elevation-1);
+    transition: box-shadow var(--md-sys-motion-duration-medium) var(--md-sys-motion-standard);
+}
+
+.contact-card:hover {
+    box-shadow: var(--md-sys-elevation-2);
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-icon {
+    flex-shrink: 0;
+}
+
+.email-icon-img {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-label {
+    margin: 0 0 8px 0;
+    font: var(--md-sys-typescale-title-medium);
+    color: var(--md-sys-color-on-surface);
+}
+
+.contact-email {
+    color: var(--md-sys-color-on-surface);
+    text-decoration: none;
+    font: var(--md-sys-typescale-body-large);
+    transition: color var(--md-sys-motion-duration-short) var(--md-sys-motion-standard);
+}
+
+.contact-email:hover {
+    color: rgb(228, 121, 242);
+}

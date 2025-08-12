@@ -312,4 +312,19 @@
         font-size: 0.7em;
         padding: 1px 6px;
     }
+
+    .contact-card {
+        margin: 15px 20px;
+        padding: 20px;
+        max-width: none;
+    }
+
+    .contact-content {
+        gap: 15px;
+    }
+
+    .email-icon-img {
+        width: 32px;
+        height: 32px;
+    }
 }
