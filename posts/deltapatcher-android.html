@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="dark">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducing Delta Patcher Android - Innix</title>
+    <link rel="stylesheet" type="text/css" href="../css/core.css?202505131513">
+    <link rel="stylesheet" type="text/css" href="../css/mobile.css?202505131513" media="screen and (max-width: 768px)">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html" class="header-profile">
+                <img src="../img/innix.jpeg" alt="Innix" class="profile-image">
+                <span class="profile-name">Innix</span>
+            </a>
+        </div>
+        <nav>
+            <a href="../blog.html">Blog</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <article class="blog-content">
+            <h1>Delta Patcher Android</h1>
+            <div class="blog-meta">
+                <span class="blog-date">August 29, 2025</span>
+            </div>
+            <div class="blog-body">
+                <p>My latest project: <strong>Delta Patcher Android</strong> - a native Android application for creating and applying xdelta patches.</p>
+
+                <h2>What is Delta Patcher Android?</h2>
+                <p>Delta Patcher Android is an Android "fork" of marco-calautti's Delta Patcher, allowing users to create and apply xdelta patches on mobile devices. It is built with modern Android libraries using Jetpack Compose and Material Design 3.</p>
+
+                <h2>Key Features</h2>
+                <ul>
+                    <li><strong>Dual Functionality:</strong> Both create new patches and apply existing ones</li>
+                    <li><strong>XDelta3 Settings:</strong> Customizable compression levels, secondary compression algorithms, and checksum verification</li>
+                    <li><strong>Background Processing:</strong> Continue using your device while patches are being processed</li>
+                    <li><strong>File Management:</strong> Caching system that automatically cleans up temporary files</li>
+                </ul>
+
+
+                <h2>Two Main Modes</h2>
+                
+                <h3>Apply Mode (Decode)</h3>
+                <p>Apply existing xdelta patches to ROM files:</p>
+                <ul>
+                    <li>Select your original ROM file</li>
+                    <li>Choose the patch file (.xdelta)</li>
+                    <li>Set output directory and filename</li>
+                    <li>View patch descriptions and metadata</li>
+                    <li>Apply with real-time progress tracking</li>
+                </ul>
+
+                <h3>Create Mode (Encode)</h3>
+                <p>Generate new patches by comparing two ROM versions:</p>
+                <ul>
+                    <li>Select original and modified ROM files</li>
+                    <li>Configure compression settings</li>
+                    <li>Add custom patch descriptions</li>
+                    <li>Choose output location</li>
+                    <li>Create optimized patches with progress monitoring</li>
+                </ul>
+
+
+                <h2>Performance Considerations</h2>
+                <p>Due to Android's storage API limitations, large ROM files may take some time to process.</p>
+             
+                <h2>Open Source & Community</h2>
+                <p>DeltaPatcherAndroid is fully open source under the GPL v2 license.</p>
+
+                <p>Special thanks to marco-calautti for the original DeltaPatcher implementation, which served as a valuable reference for this Android adaptation.</p>
+
+                <h2>Get Involved</h2>
+                <p>You can find the project on <a href="https://github.com/innixunix/DeltaPatcherAndroid">GitHub</a>.</p>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
